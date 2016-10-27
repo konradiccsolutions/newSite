@@ -2,9 +2,15 @@
 <%@ Register src="~/UserControls/TextPod.ascx" tagname="SinglePod" tagprefix="MyControl" %>
 <%@ Register src="~/UserControls/ImagePod.ascx" tagname="ImagePod" tagprefix="MyControl" %>
 <%@ Register src="~/UserControls/OneColumn.ascx" tagname="OneColumn" tagprefix="MyControl" %>
+<%@ Register src="~/UserControls/BannerCarousel.ascx" tagname="BannerCarousel" tagprefix="MyControl" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+<MyControl:BannerCarousel runat="server" ID="ctrBannerCarousel" />
 <div class="container">
+
+
+    <hr />
     <div class="row">
         <MyControl:SinglePod runat="server" ID="ctrSingePod" />
     </div>

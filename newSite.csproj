@@ -182,6 +182,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\carousel.css" />
+    <Content Include="obj\Debug\newSite.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\newSite.dll" />
+    <Content Include="obj\Debug\newSite.pdb" />
     <Content Include="Pages\About.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
@@ -210,6 +214,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\newSite.csprojResolveAssemblyReference.cache" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
@@ -246,6 +252,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="UserControls\BannerCarousel.ascx" />
     <Content Include="UserControls\ImagePod.ascx" />
     <Content Include="UserControls\OneColumn.ascx" />
     <Content Include="UserControls\TextPod.ascx" />
@@ -370,6 +377,9 @@
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Pages\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -414,6 +424,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="UserControls\BannerCarousel.ascx.cs">
+      <DependentUpon>BannerCarousel.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\BannerCarousel.ascx.designer.cs">
+      <DependentUpon>BannerCarousel.ascx</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\ImagePod.ascx.cs">
       <DependentUpon>ImagePod.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -445,6 +462,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
