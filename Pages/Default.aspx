@@ -7,15 +7,44 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
 <MyControl:BannerCarousel runat="server" ID="ctrBannerCarousel" />
-<div class="container">
 
 
+    <%--------------------- Imagepod section ---------------------%>
+    <section id="ImagePods" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <MyControl:ImagePod runat="server" ID="ImagePod1" />  
+                <MyControl:ImagePod runat="server" ID="ImagePod2" />
+                <MyControl:ImagePod runat="server" ID="ImagePod3" />   
+                <MyControl:ImagePod runat="server" ID="ImagePod4" />             
+            </div>
+        </div>
+    </section>
+
+    <%--------------------- News section ---------------------%>
+    <section id="News">
+        <div class="container">    
+                  
+        </div>
+    </section>
+
+    <%--------------------- Video section ---------------------%>
+    <section id="Video">
+        <div class="container">   
+               
+        </div>
+    </section>
+
+    <%--------------------- Events section ---------------------%>
+    <section id="Events">
+        <div class="container">  
+                    
+        </div>
+    </section>
     <hr />
+  
     <div class="row">
         <MyControl:SinglePod runat="server" ID="ctrSingePod" />
-    </div>
-    <div class="row">
-        <MyControl:ImagePod runat="server" ID="ctrImagePod" />
     </div>
     <div class="row">
         <MyControl:OneColumn runat="server" ID="ctrOneColumn" />

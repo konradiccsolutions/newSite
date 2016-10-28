@@ -36,3 +36,34 @@ input[type="select"] {
         padding: 0;
     }
 }
+
+/*Section colours */
+
+.bg-light-gray {
+    background-color: #eee;
+}
+@media (min-width: 768px)
+
+section {
+    padding: 150px 0;
+}
+
+/* Image pods */
+
+.img-portfolio{
+    background-color: white;
+    box-shadow: 0px 0px 70px -20px;  
+    margin-bottom: 40px;
+    margin-left: 20px;
+    max-width: 370px;
+
+}
+
+@media (max-width: 768px){
+.img-portfolio{
+    background-color: white;
+    box-shadow: 0px 0px 70px -20px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    max-width: inherit;
+}}
