@@ -16,7 +16,9 @@
                 <MyControl:ImagePod runat="server" ID="ImagePod1" />  
                 <MyControl:ImagePod runat="server" ID="ImagePod2" />
                 <MyControl:ImagePod runat="server" ID="ImagePod3" />   
-                <MyControl:ImagePod runat="server" ID="ImagePod4" />             
+                <MyControl:ImagePod runat="server" ID="ImagePod4" />
+                <MyControl:ImagePod runat="server" ID="ImagePod5" />  
+                <MyControl:ImagePod runat="server" ID="ImagePod6" />               
             </div>
         </div>
     </section>

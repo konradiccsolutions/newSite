@@ -58,6 +58,24 @@ namespace newSite {
         protected global::newSite.UserControls.ImagePod ImagePod4;
         
         /// <summary>
+        /// ImagePod5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::newSite.UserControls.ImagePod ImagePod5;
+        
+        /// <summary>
+        /// ImagePod6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::newSite.UserControls.ImagePod ImagePod6;
+        
+        /// <summary>
         /// ctrSingePod control.
         /// </summary>
         /// <remarks>
