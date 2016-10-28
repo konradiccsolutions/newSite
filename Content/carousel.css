@@ -59,6 +59,10 @@ body {
   height: 500px;
 }
 
+.slide-image {
+
+    -webkit-filter: blur(11px) contrast(1.1) grayscale(1) invert(1) opacity(1)
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
