@@ -11,7 +11,7 @@ namespace newSite
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-        }
+            Helpers.ConnectionHelper.ExecuteStoredProcedure("insert", "parameter");
+    }
     }
 }
